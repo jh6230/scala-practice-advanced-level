@@ -1,3 +1,4 @@
+// コンパニオンオブジェクトについて
 case class Person private (name: String, age: Int) {
   val introduce: String =  "初めまして私は" + name +  "で、" + age + "歳" + "です"
 }
@@ -6,6 +7,7 @@ case class Person private (name: String, age: Int) {
 クラス名と同じ名前のオブジェクト
 privateなコンストラクタは外側から呼び出すことはできないが
 コンパニオンオブジェクトは同名クラス名にアクセスできる
+コンパニオンオブジェクトは、オブジェクトのファクトリとして使われることがある
 */
 
 object Person {
@@ -22,7 +24,7 @@ object Men {
  }
 */
 
-object Main {
+object CompanionObject {
   def main(args: Array[String]): Unit = {
 
     println("test")
