@@ -7,8 +7,6 @@ object NameHandOffArgument {
     if_(n % 2 == 1){ println("奇数") }{ println("偶数") }
     println("------------------------------------------")
     if__(n % 2 == 1){ println("奇数") }{ println("偶数") }
-
-
   }
 
   /*
