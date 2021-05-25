@@ -1,6 +1,6 @@
 // コンパニオンオブジェクトについて
 case class Person private (name: String, age: Int) {
-  val introduce: String =  "初めまして私は" + name +  "で、" + age + "歳" + "です"
+  val introduce: String =  s"初めまして私は${name}で、${age}歳です"
 }
 /*
 コンパニオンオブジェクト
