@@ -26,7 +26,6 @@ object Men {
 
 object CompanionObject {
   def main(args: Array[String]): Unit = {
-
     println("test")
     println(Person("hoge", 32).introduce)
   }
