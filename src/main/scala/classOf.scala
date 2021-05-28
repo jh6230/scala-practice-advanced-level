@@ -14,11 +14,11 @@ object ClassOf {
     println(iMethods)
   }
 
- /*
- isInstansOf
- 以下のようなコードがあった時に、bに入っている実際のインスタンスはAクラスのインスタンス
- だが、それをチェックするためにisInstansOfというメソッドが用意されている
- */
+  /*
+  isInstansOf
+  以下のようなコードがあった時に、bに入っている実際のインスタンスはAクラスのインスタンス
+  だが、それをチェックするためにisInstansOfというメソッドが用意されている
+  */
   class B
   class A extends B
   val b: B = new A
